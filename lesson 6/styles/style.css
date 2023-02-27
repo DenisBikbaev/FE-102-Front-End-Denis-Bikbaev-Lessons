@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+section {
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.list {
+    margin-top: 15px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.list-item {
+    line-height: 42px;
+    background-color: rosybrown;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.list-item:last-child {
+    margin-bottom: 0;
+}
+
+.list-item:first-child {
+    background-color: red;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.list-item:first-child:hover {
+    background-color: rosybrown;
+}
+
+/* .list-item:nth-child(even){
+    background-color: blanchedalmond;
+} */
+
+/* .list-item:nth-child(odd){
+    background-color: blue;
+} */
+
+.list-item:nth-child(-n+3) {
+    color: yellow;
+}
+
+nav {
+    padding: 30px 200px;
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+a:hover {
+    opacity: .5;
+}
+
+.input-button {
+    padding: 15px;
+}
+
+.input-button input:focus {
+    border: 2px solid red;
+}
+
+.btn {
+    width: 160px;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    background-color: blue;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgb(47, 47, 64);
+    border: 2px solid white;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: aquamarine;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.header::before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.header::after {
+    content: '';
+    display: block;
+    width: 75px;
+    height: 4px;
+    background-color: red;
+    border-radius: 4px;
+    margin: 0 auto;
+}
