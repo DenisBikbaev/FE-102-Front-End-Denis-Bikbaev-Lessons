@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* .container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+form {
+    border: 1px solid black;
+    padding: 20px;
+
+}
+
+input {
+    padding: 5px 7px;
+    border: 1px solid red;
+    outline: 0;
+    border: none;
+    border: 3px solid black;
+    border-radius: 4px;
+}
+
+input[type='text']{
+    padding: 3px 5px;
+    border: 0;
+    outline: 0;
+    
+}
+
+textarea{
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    outline: none;
+    resize: horizontal;
+    resize: vertical;
+    resize: none;
+    border: 1px solid white;
+    border-bottom: 1px solid black;
+} */
+
+.pract{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    margin-bottom: 100px;
+}
+
+.N3{
+    text-align: center;
+}
+
+.input{
+    margin-bottom: 20px;
+}
+
+.checkbox{
+    border: 1px solid red;
+}
+
+.radio-button{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.radio{
+    margin-bottom: 20px;
+}
+
+.btn{
+    margin-top: 20px;
+}
+
+.N6{
+    margin-top: 100px;
+}
+
+.N7{
+    margin-top: 100px;
+}
+
+.N8{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#textarea-1{
+    /* resize: horizontal;
+    resize: vertical; */
+    margin-bottom: 20px;
+}
+
+#textarea-2{
+    resize: none;
+}

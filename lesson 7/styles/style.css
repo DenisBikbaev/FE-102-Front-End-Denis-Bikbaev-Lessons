@@ -1,0 +1,20 @@
+audio{
+    display: block;
+    width: 800px;
+    margin: 5px auto;
+    /* visibility: hidden; */
+}
+
+.phone{
+
+}
+
+.shadowbox{
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px 0 rgba(79, 164, 243, 0.8);
+}
